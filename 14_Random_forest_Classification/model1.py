@@ -28,7 +28,7 @@ print(X_test)
 
 # Training the Logistic Regression model on the Training set
 from sklearn.ensemble import RandomForestClassifier
-classifier =RandomForestClassifier(n_estimators=10,criterion='entropy',random_state=0)
+classifier =RandomForestClassifier(n_estimators=100,criterion='entropy',random_state=0)
 classifier.fit(X_train, y_train)
 
 # Predicting a new result
